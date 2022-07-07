@@ -1,0 +1,25 @@
+{
+  "name": "ts-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "node_modules/.bin/ts-node src/index.ts",
+    "tsc": "node_modules/.bin/tsc",
+    "ppoop": "npm run tsc -- dist/ppoop/%$4%"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevJE/ts-repo.git"
+  },
+  "author": "DevJE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevJE/ts-repo/issues"
+  },
+  "homepage": "https://github.com/DevJE/ts-repo#readme",
+  "devDependencies": {
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
